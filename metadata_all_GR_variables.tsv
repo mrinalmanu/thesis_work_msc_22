@@ -1,0 +1,191 @@
+Variable	Description	Option	Option	Group
+LE5.012	What is a genome?	Gene expression	Gene expression	100
+LE5.012	What is a genome?	A sex chromosome	A sex chromosome	100
+LE5.012	What is a genome?	Correct - The entire sequence of DNA of an individual	Correct - The entire sequence of DNA of an individual	100
+LE5.012	What is a genome?	All the genes in the DNA	All the genes in the DNA	100
+LE5.013	Which of the following 4 letter groups represent the 	LFWE	LFWE	101
+LE5.013	Which of the following 4 letter groups represent the 	GPHO	GPHO	101
+LE5.013	Which of the following 4 letter groups represent the 	HTPR	HTPR	101
+LE5.013	Which of the following 4 letter groups represent the 	Correct - GCTA	Correct - GCTA	101
+LE5.017	On average, how much of their total DNA is the same in two people selected at random?	75 percent	75 percent	102
+LE5.017	On average, how much of their total DNA is the same in two people selected at random?	Correct – More than 99 percent	Correct – More than 99 percent	102
+LE5.017	On average, how much of their total DNA is the same in two people selected at random?	Less than 50 percent	Less than 50 percent	102
+LE5.017	On average, how much of their total DNA is the same in two people selected at random?	90 percent	90 percent	102
+LE5.018	Genetic contribution to the risk of developing Schizophernia comes from -	Correct – Many genes	Correct – Many genes	103
+LE5.018	Genetic contribution to the risk of developing Schizophernia comes from -	One gene	One gene	103
+LE5.024	The DNA sequence in two different cells, for example a neuron and a heart cell, of one person, is -	Entirely different	Entirely different	104
+LE5.024	The DNA sequence in two different cells, for example a neuron and a heart cell, of one person, is -	About 50 percent the same	About 50 percent the same	104
+LE5.024	The DNA sequence in two different cells, for example a neuron and a heart cell, of one person, is -	More than 90 percent the same	More than 90 percent the same	104
+LE5.024	The DNA sequence in two different cells, for example a neuron and a heart cell, of one person, is -	Correct – One hundred percent identical	Correct – One hundred percent identical	104
+LE5.030	Some of the genes that relate to dyslexia also relate to ADHD -	False	False	105
+LE5.030	Some of the genes that relate to dyslexia also relate to ADHD -	Correct - True	Correct - True	105
+LE5.031	If a report states ‘the heritability of insomnia is approximately 30 percent what would that mean?	Correct – Genetic influences account for approximately thirty percent of differences between people in insomnia	Correct – Genetic influences account for approximately thirty percent of differences between people in insomnia	106
+LE5.031	If a report states ‘the heritability of insomnia is approximately 30 percent what would that mean?	Approximately thirty percent of people will experience insomnia at some point in their lives	Approximately thirty percent of people will experience insomnia at some point in their lives	106
+LE5.031	If a report states ‘the heritability of insomnia is approximately 30 percent what would that mean?	If someone has insomnia this is approximately this is approximately thirty percent due to their genes	If someone has insomnia this is approximately this is approximately thirty percent due to their genes	106
+LE5.031	If a report states ‘the heritability of insomnia is approximately 30 percent what would that mean?	There is an approximately 30 percent chance that someone will pass insomnia onto their children	There is an approximately 30 percent chance that someone will pass insomnia onto their children	106
+Class_X	GK Score	High GK Score	High GK Score	107
+Class_X	GK Score	Low GK Score	Low GK Score	107
+Class_X	Gender	Male Participants	Male Participants	108
+Class_X	Gender	Female Participants	Female Participants	108
+Class_X	Age	Younger Participants	Younger Participants	109
+Class_X	Age	Older Participants	Older Participants	109
+Class_X	Confidence in GK	High GK Confidence	High GK Confidence	110
+Class_X	Confidence in GK	Low GK Confidence	Low GK Confidence	110
+Class_X	Related/ Not related to law	Participants related to law	Participants related to law	111
+Class_X	Related/ Not related to law	Participants not related to law	Participants not related to law	111
+Class_X	Students/ Non Students	Students	Students	112
+Class_X	Law or Non Law Students and Non Students	Law Students	Law Students	113
+Class_X	Law or Non Law Students and Non Students	Non Law Students	Non Law Students	113
+Class_X	Law or Non Law Students and Non Students	Not Students	Not Students	113
+Class_X	Concern	High Concern	High Concern	114
+Class_X	Concern	Low Concern	Low Concern	114
+Class_X	Concern	Medium Concern	Medium Concern	114
+Class_X	Genetic Curiosity	High Genetic Curiosity	High Genetic Curiosity	115
+Class_X	Genetic Curiosity	Medium Genetic Curiosity	Medium Genetic Curiosity	115
+Class_X	Genetic Curiosity	Low Genetic Curiosity	Low Genetic Curiosity	115
+LE3.045	Please indicate whether the following endeavours have positive negative or no impact on society	Disease prevention and cure Negative	Disease prevention and cure Negative	116
+LE3.066	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Disease prevention and cure None	Disease prevention and cure None	117
+LE3.066	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Disease prevention and cure Positive	Disease prevention and cure Positive	117
+LE3.067	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Improving fairness in criminal trials Negative	Improving fairness in criminal trials Negative	117
+LE3.067	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Improving fairness in criminal trials Positive	Improving fairness in criminal trials Positive	117
+LE3.067	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Improving fairness in criminal trials None	Improving fairness in criminal trials None	117
+LE3.068	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Economic growth Negative	Economic growth Negative	117
+LE3.068	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Economic growth Positive	Economic growth Positive	117
+LE3.068	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Economic growth None	Economic growth None	117
+LE3.069	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New medical technologies None	New medical technologies None	117
+LE3.069	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New medical technologies Negative	New medical technologies Negative	117
+LE3.069	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New medical technologies Positive	New medical technologies Positive	117
+LE3.070	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Changing the structure of society None	Changing the structure of society None	117
+LE3.070	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Changing the structure of society Negative	Changing the structure of society Negative	117
+LE3.070	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Changing the structure of society Positive	Changing the structure of society Positive	117
+LE3.071	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New agricultural methods and products None	New agricultural methods and products None	117
+LE3.071	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New agricultural methods and products Negative	New agricultural methods and products Negative	117
+LE3.071	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	New agricultural methods and products Positive	New agricultural methods and products Positive	117
+LE3.072	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reducing food scarcity Negative	Reducing food scarcity Negative	117
+LE3.072	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reducing food scarcity None	Reducing food scarcity None	117
+LE3.072	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reducing food scarcity Positive	Reducing food scarcity Positive	117
+LE3.073	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Designer babies None	Designer babies None	117
+LE3.073	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Designer babies Positive	Designer babies Positive	117
+LE3.073	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Designer babies Negative	Designer babies Negative	117
+LE3.074	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reduction in population variation Positive	Reduction in population variation Positive	117
+LE3.074	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reduction in population variation Negative	Reduction in population variation Negative	117
+LE3.074	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Reduction in population variation None	Reduction in population variation None	117
+LE3.075	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Developing biological weapons Positive	Developing biological weapons Positive	117
+LE3.075	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Developing biological weapons None	Developing biological weapons None	117
+LE3.075	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Developing biological weapons Negative	Developing biological weapons Negative	117
+LE3.076	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Selection and enhancement of military personnel Positive	Selection and enhancement of military personnel Positive	117
+LE3.076	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Selection and enhancement of military personnel None	Selection and enhancement of military personnel None	117
+LE3.076	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Selection and enhancement of military personnel Negative	Selection and enhancement of military personnel Negative	117
+LE3.077	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted commercial advertising Positive	Targeted commercial advertising Positive	117
+LE3.077	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted commercial advertising None	Targeted commercial advertising None	117
+LE3.077	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted commercial advertising Negative	Targeted commercial advertising Negative	117
+LE3.078	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted political campaigns Positive	Targeted political campaigns Positive	117
+LE3.078	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted political campaigns None	Targeted political campaigns None	117
+LE3.078	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Targeted political campaigns Negative	Targeted political campaigns Negative	117
+LE3.079	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Crime prevention Negative	Crime prevention Negative	117
+LE3.079	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Crime prevention Positive	Crime prevention Positive	117
+LE3.079	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Crime prevention None	Crime prevention None	117
+LE3.080	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Increased Longevity None	Increased Longevity None	117
+LE3.080	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Increased Longevity Negative	Increased Longevity Negative	117
+LE3.080	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Increased Longevity Positive	Increased Longevity Positive	117
+LE3.081	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Altering own traits aka biohacking None	Altering own traits aka biohacking None	117
+LE3.081	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Altering own traits aka biohacking Positive	Altering own traits aka biohacking Positive	117
+LE3.081	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Altering own traits aka biohacking Negative	Altering own traits aka biohacking Negative	117
+LE3.082	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Personalised education Negative	Personalised education Negative	117
+LE3.082	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Personalised education None	Personalised education None	117
+LE3.082	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Personalised education Positive	Personalised education Positive	117
+LE3.083	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Streamed or stratified education Positive	Streamed or stratified education Positive	117
+LE3.083	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Streamed or stratified education None	Streamed or stratified education None	117
+LE3.083	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Streamed or stratified education Negative	Streamed or stratified education Negative	117
+LE3.084	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Testing for hiring in employment None	Testing for hiring in employment None	117
+LE3.084	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Testing for hiring in employment Positive	Testing for hiring in employment Positive	117
+LE3.084	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Testing for hiring in employment Negative	Testing for hiring in employment Negative	117
+LE3.085	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Other Positive	Other Positive	117
+LE3.085	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Other Negative	Other Negative	117
+LE3.085	Genetic science can contribute to the following social changes. Indicate whether you consider these endeavours positive neutral or negative for society 	Other None	Other None	117
+	Would you be interested in finding out about genetic information	Future spouse or partner - Definitely	Future spouse or partner - Definitely	118
+	Would you be interested in finding out about genetic information	Future spouse or partner - Most Likely	Future spouse or partner - Most Likely	118
+	Would you be interested in finding out about genetic information	Future spouse or partner - Never	Future spouse or partner - Never	118
+	Would you be interested in finding out about genetic information	Future spouse or partner - Under certain circumstances	Future spouse or partner - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Spouse or partner - Definitely	Spouse or partner - Definitely	118
+	Would you be interested in finding out about genetic information	Spouse or partner - Never	Spouse or partner - Never	118
+	Would you be interested in finding out about genetic information	Spouse or partner - Most Likely	Spouse or partner - Most Likely	118
+	Would you be interested in finding out about genetic information	Spouse or partner - Under certain circumstances	Spouse or partner - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Children - Never	Children - Never	118
+	Would you be interested in finding out about genetic information	Children - Under certain circumstances	Children - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Children - Definitely	Children - Definitely	118
+	Would you be interested in finding out about genetic information	Children - Most Likely	Children - Most Likely	118
+	Would you be interested in finding out about genetic information	Siblings - Most Likely	Siblings - Most Likely	118
+	Would you be interested in finding out about genetic information	Siblings - Under certain circumstances	Siblings - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Siblings - Definitely	Siblings - Definitely	118
+	Would you be interested in finding out about genetic information	Siblings - Never	Siblings - Never	118
+	Would you be interested in finding out about genetic information	Other relatives - Definitely	Other relatives - Definitely	118
+	Would you be interested in finding out about genetic information	Other relatives - Under certain circumstances	Other relatives - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Other relatives - Most Likely	Other relatives - Most Likely	118
+	Would you be interested in finding out about genetic information	Other relatives - Never	Other relatives - Never	118
+	Would you be interested in finding out about genetic information	Friends - Definitely	Friends - Definitely	118
+	Would you be interested in finding out about genetic information	Friends - Under certain circumstances	Friends - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Friends - Most Likely	Friends - Most Likely	118
+	Would you be interested in finding out about genetic information	Friends - Never	Friends - Never	118
+	Would you be interested in finding out about genetic information	Other - Most Likely	Other - Most Likely	118
+	Would you be interested in finding out about genetic information	Other - Under certain circumstances	Other - Under certain circumstances	118
+	Would you be interested in finding out about genetic information	Other - Definitely	Other - Definitely	118
+	Would you be interested in finding out about genetic information	Other - Never	Other - Never	118
+LE2.122	What concerns do participants have in relation to genetic testing	Do not know who will have access to that information	Do not know who will have access to that information	119
+LE2.123	What concerns do participants have in relation to genetic testing	Do not know whether the data will be stored securely	Do not know whether the data will be stored securely	119
+LE2.124	What concerns do participants have in relation to genetic testing	I would rather not know of any potential debilitating diseases that I may develop in the future	I would rather not know of any potential debilitating diseases that I may develop in the future	119
+LE2.125	What concerns do participants have in relation to genetic testing	I am not interested	I am not interested	119
+LE2.126	What concerns do participants have in relation to genetic testing	I am worried that I might find out something about myself I would rather not know	I am worried that I might find out something about myself I would rather not know	119
+LE2.127	What concerns do participants have in relation to genetic testing	I would not want to be labelled as having any deficiency	I would not want to be labelled as having any deficiency	119
+LE2.128	What concerns do participants have in relation to genetic testing	I am worried some information about my physical or mental health could be used against me for example employment; legal matters; obtaining insurance	I am worried some information about my physical or mental health could be used against me for example employment; legal matters; obtaining insurance	119
+LE2.129	What concerns do participants have in relation to genetic testing	I am concerned my data will be used for other purposes without my knowledge	I am concerned my data will be used for other purposes without my knowledge	119
+LE3.199	Dissemination of GK	Disagree to dissemination of GK	Disagree to dissemination of GK	120
+LE3.199	Dissemination of GK	Neutral towards to dissemination of GK	Neutral towards to dissemination of GK	120
+LE3.199	Dissemination of GK	Strongly disagree to dissemination of GK	Strongly disagree to dissemination of GK	120
+LE3.199	Dissemination of GK	Agree to dissemination of GK	Agree to dissemination of GK	120
+LE3.199	Dissemination of GK	Strongly agree to dissemination of GK	Strongly agree to dissemination of GK	120
+LE3.200	Policymaking	Neutral towards to Policymaking	Neutral towards to Policymaking	121
+LE3.200	Policymaking	Disagree to Policymaking	Disagree to Policymaking	121
+LE3.200	Policymaking	Strongly disagree to Policymaking	Strongly disagree to Policymaking	121
+LE3.200	Policymaking	Agree to Policymaking	Agree to Policymaking	121
+LE3.200	Policymaking	Strongly agree to Policymaking	Strongly agree to Policymaking	121
+LE3.201	Revising and updating	Strongly disagree to Revising and Updating	Strongly disagree to Revising and Updating	122
+LE3.201	Revising and updating	Disagree to Revising and Updating	Disagree to Revising and Updating	122
+LE3.201	Revising and updating	Neutral towards to Revising and Updating	Neutral towards to Revising and Updating	122
+LE3.201	Revising and updating	Agree to Revising and Updating	Agree to Revising and Updating	122
+LE3.201	Revising and updating	Strongly agree to Revising and Updating	Strongly agree to Revising and Updating	122
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	The State	The State	123
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	One legal guardian sufficient	One legal guardian sufficient	123
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	Do not know	Do not know	123
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	Medical facilities	Medical facilities	123
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	Prohibited until child has legal capacity	Prohibited until child has legal capacity	123
+LE3.087	In most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth?	Two legal guardians need to agree	Two legal guardians need to agree	123
+LE3.101	Would you be interested in finding out about genetic information	Future spouse or partner	Future spouse or partner	118
+LE3.104	Would you be interested in finding out about genetic information	Siblings	Siblings	118
+LE3.105	Would you be interested in finding out about genetic information	Other relatives	Other relatives	118
+LE3.106	Would you be interested in finding out about genetic information	Friends	Friends	118
+LE3.107	Would you be interested in finding out about genetic information	Other	Other	118
+LE3.102	Would you be interested in finding out about genetic information	Spouse or partner	Spouse or partner	118
+LE3.103	Would you be interested in finding out about genetic information	Children	Children	118
+LE2.003	Have you ever had genetic testing and why?	Medical testing - Self-initiated	Medical testing - Self-initiated	124
+LE2.004	Have you ever had genetic testing and why?	Medical testing - Recommended by doctor	Medical testing - Recommended by doctor	124
+LE2.005	Have you ever had genetic testing and why?	Medical testing - Compulsory by a court or law enforcement	Medical testing - Compulsory by a court or law enforcement	124
+LE2.011	Have you ever had genetic testing and why?	Ancestry testing - Compulsory by a court or law enforcement	Ancestry testing - Compulsory by a court or law enforcement	124
+LE2.017	Have you ever had genetic testing and why?	Health and diet - Compulsory by a court or law enforcement	Health and diet - Compulsory by a court or law enforcement	124
+LE2.006	Have you ever had genetic testing and why?	Paternity testing - Self-initiated	Paternity testing - Self-initiated	124
+LE2.007	Have you ever had genetic testing and why?	Paternity testing - Recommended by doctor	Paternity testing - Recommended by doctor	124
+LE2.008	Have you ever had genetic testing and why?	Paternity testing - Compulsory by a court or law enforcement	Paternity testing - Compulsory by a court or law enforcement	124
+LE2.009	Have you ever had genetic testing and why?	Ancestry testing - Self-initiated	Ancestry testing - Self-initiated	124
+LE2.010	Have you ever had genetic testing and why?	Ancestry testing - Recommended by doctor	Ancestry testing - Recommended by doctor	124
+LE2.012	Have you ever had genetic testing and why?	General interest - Self-initiated	General interest - Self-initiated	124
+LE2.013	Have you ever had genetic testing and why?	General interest - Recommended by doctor	General interest - Recommended by doctor	124
+LE2.014	Have you ever had genetic testing and why?	General interest - Compulsory by a court or law enforcement	General interest - Compulsory by a court or law enforcement	124
+LE2.015	Have you ever had genetic testing and why?	Health and diet - Self-initiated	Health and diet - Self-initiated	124
+LE2.016	Have you ever had genetic testing and why?	Health and diet - Recommended by doctor	Health and diet - Recommended by doctor	124
+LE2.018	Have you ever had genetic testing and why?	Research project - Self-initiated	Research project - Self-initiated	124
+LE2.019	Have you ever had genetic testing and why?	Research project - Recommended by doctor	Research project - Recommended by doctor	124
+LE2.020	Have you ever had genetic testing and why?	As part of a research project as Compulsory for example by a court or law enforcement	As part of a research project as Compulsory for example by a court or law enforcement	124
+LE2.021	Have you ever had genetic testing and why?	Other - Self-initiated	Other - Self-initiated	124
+LE2.023	Have you ever had genetic testing and why?	Other - Compulsory by a court or law enforcement	Other - Compulsory by a court or law enforcement	124
+LE2.024	Have you ever had genetic testing and why?	No	No	124
+LE2.022	Have you ever had genetic testing and why?	Other - Recommended by doctor	Other - Recommended by doctor	124
