@@ -1,0 +1,123 @@
+<html>
+<head>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis.css" type="text/css" />
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/vis/4.16.1/vis-network.min.js"> </script>
+<center>
+<h1></h1>
+</center>
+
+<!-- <link rel="stylesheet" href="../node_modules/vis/dist/vis.min.css" type="text/css" />
+<script type="text/javascript" src="../node_modules/vis/dist/vis.js"> </script>-->
+
+<style type="text/css">
+
+        #mynetwork {
+            width: 100%;
+            height: 1080px;
+            background-color: #ffffff;
+            border: 1px solid lightgray;
+            position: relative;
+            float: left;
+        }
+
+        
+
+        
+        #config {
+            float: left;
+            width: 400px;
+            height: 600px;
+        }
+        
+
+        
+</style>
+
+</head>
+
+<body>
+<div id = "mynetwork"></div>
+
+
+<div id = "config"></div>
+
+<script type="text/javascript">
+
+    // initialize global variables.
+    var edges;
+    var nodes;
+    var network; 
+    var container;
+    var options, data;
+
+    
+    // This method is responsible for drawing the graph, returns the drawn network
+    function drawGraph() {
+        var container = document.getElementById('mynetwork');
+        
+        
+
+        // parsing and collecting nodes and edges from the python
+        nodes = new vis.DataSet([{"color": "#741988", "font": {"color": "black"}, "id": "Strongly agree to Revising and Updating", "label": "Strongly agree to Revising and Updating", "shape": "dot", "title": "Strongly agree to Revising and Updating Neighbors:\u003cbr\u003eStrongly agree to Policymaking 0.623\u003cbr\u003eStrongly agree to dissemination of GK 0.407", "value": 2, "weight": ["0.623", "0.407"]}, {"color": "#741988", "font": {"color": "black"}, "id": "Strongly agree to Policymaking", "label": "Strongly agree to Policymaking", "shape": "dot", "title": "Strongly agree to Policymaking Neighbors:\u003cbr\u003eStrongly agree to dissemination of GK 0.501\u003cbr\u003eStrongly agree to Revising and Updating 0.623", "value": 2, "weight": ["0.501", "0.623"]}, {"color": "#24af95", "font": {"color": "black"}, "id": "Strongly disagree to Revising and Updating", "label": "Strongly disagree to Revising and Updating", "shape": "dot", "title": "Strongly disagree to Revising and Updating Neighbors:\u003cbr\u003eStrongly disagree to Policymaking 0.59\u003cbr\u003eStrongly disagree to dissemination of GK 0.446", "value": 2, "weight": ["0.59", "0.446"]}, {"color": "#24af95", "font": {"color": "black"}, "id": "Strongly disagree to Policymaking", "label": "Strongly disagree to Policymaking", "shape": "dot", "title": "Strongly disagree to Policymaking Neighbors:\u003cbr\u003eStrongly disagree to Revising and Updating 0.59\u003cbr\u003eStrongly disagree to dissemination of GK 0.432", "value": 2, "weight": ["0.59", "0.432"]}, {"color": "#dd54ae", "font": {"color": "black"}, "id": "Agree to Revising and Updating", "label": "Agree to Revising and Updating", "shape": "dot", "title": "Agree to Revising and Updating Neighbors:\u003cbr\u003eAgree to Policymaking 0.575\u003cbr\u003eAgree to dissemination of GK 0.416", "value": 2, "weight": ["0.575", "0.416"]}, {"color": "#dd54ae", "font": {"color": "black"}, "id": "Agree to Policymaking", "label": "Agree to Policymaking", "shape": "dot", "title": "Agree to Policymaking Neighbors:\u003cbr\u003eAgree to Revising and Updating 0.575\u003cbr\u003eAgree to dissemination of GK 0.478", "value": 2, "weight": ["0.575", "0.478"]}, {"color": "#56f8c9", "font": {"color": "black"}, "id": "Strongly agree to dissemination of GK", "label": "Strongly agree to dissemination of GK", "shape": "dot", "title": "Strongly agree to dissemination of GK Neighbors:\u003cbr\u003eStrongly agree to Policymaking 0.501\u003cbr\u003eStrongly agree to Revising and Updating 0.407", "value": 2, "weight": ["0.501", "0.407"]}, {"color": "#877441", "font": {"color": "black"}, "id": "Agree to dissemination of GK", "label": "Agree to dissemination of GK", "shape": "dot", "title": "Agree to dissemination of GK Neighbors:\u003cbr\u003eAgree to Policymaking 0.478\u003cbr\u003eAgree to Revising and Updating 0.416", "value": 2, "weight": ["0.478", "0.416"]}, {"color": "#ab677b", "font": {"color": "black"}, "id": "Strongly disagree to dissemination of GK", "label": "Strongly disagree to dissemination of GK", "shape": "dot", "title": "Strongly disagree to dissemination of GK Neighbors:\u003cbr\u003eStrongly disagree to Policymaking 0.432\u003cbr\u003eStrongly disagree to Revising and Updating 0.446", "value": 2, "weight": ["0.432", "0.446"]}, {"color": "#112172", "font": {"color": "black"}, "id": "Disagree to Revising and Updating", "label": "Disagree to Revising and Updating", "shape": "dot", "title": "Disagree to Revising and Updating Neighbors:\u003cbr\u003eDisagree to Policymaking 0.195\u003cbr\u003eDisagree to dissemination of GK 0.147", "value": 2, "weight": ["0.195", "0.147"]}, {"color": "#112172", "font": {"color": "black"}, "id": "Disagree to Policymaking", "label": "Disagree to Policymaking", "shape": "dot", "title": "Disagree to Policymaking Neighbors:\u003cbr\u003eDisagree to dissemination of GK 0.105\u003cbr\u003eDisagree to Revising and Updating 0.195", "value": 2, "weight": ["0.105", "0.195"]}, {"color": "#6eaa0a", "font": {"color": "black"}, "id": "Neutral towards to Revising and Updating", "label": "Neutral towards to Revising and Updating", "shape": "dot", "title": "Neutral towards to Revising and Updating Neighbors:\u003cbr\u003eNeutral towards to dissemination of GK 0.145\u003cbr\u003eNeutral towards to Policymaking 0.181", "value": 2, "weight": ["0.145", "0.181"]}, {"color": "#6eaa0a", "font": {"color": "black"}, "id": "Neutral towards to Policymaking", "label": "Neutral towards to Policymaking", "shape": "dot", "title": "Neutral towards to Policymaking Neighbors:\u003cbr\u003eNeutral towards to dissemination of GK 0.162\u003cbr\u003eNeutral towards to Revising and Updating 0.181", "value": 2, "weight": ["0.162", "0.181"]}, {"color": "#8b5018", "font": {"color": "black"}, "id": "Neutral towards to dissemination of GK", "label": "Neutral towards to dissemination of GK", "shape": "dot", "title": "Neutral towards to dissemination of GK Neighbors:\u003cbr\u003eNeutral towards to Revising and Updating 0.145\u003cbr\u003eNeutral towards to Policymaking 0.162", "value": 2, "weight": ["0.145", "0.162"]}, {"color": "#804547", "font": {"color": "black"}, "id": "Disagree to dissemination of GK", "label": "Disagree to dissemination of GK", "shape": "dot", "title": "Disagree to dissemination of GK Neighbors:\u003cbr\u003eDisagree to Policymaking 0.105\u003cbr\u003eDisagree to Revising and Updating 0.147", "value": 2, "weight": ["0.105", "0.147"]}]);
+        edges = new vis.DataSet([{"color": "#741988", "from": "Strongly agree to Revising and Updating", "to": "Strongly agree to Policymaking", "value": 0.623}, {"color": "#24af95", "from": "Strongly disagree to Revising and Updating", "to": "Strongly disagree to Policymaking", "value": 0.59}, {"color": "#dd54ae", "from": "Agree to Revising and Updating", "to": "Agree to Policymaking", "value": 0.575}, {"color": "#56f8c9", "from": "Strongly agree to Policymaking", "to": "Strongly agree to dissemination of GK", "value": 0.501}, {"color": "#877441", "from": "Agree to Policymaking", "to": "Agree to dissemination of GK", "value": 0.478}, {"color": "#ab677b", "from": "Strongly disagree to Revising and Updating", "to": "Strongly disagree to dissemination of GK", "value": 0.446}, {"color": "#bb78a9", "from": "Strongly disagree to Policymaking", "to": "Strongly disagree to dissemination of GK", "value": 0.432}, {"color": "#fd8812", "from": "Agree to Revising and Updating", "to": "Agree to dissemination of GK", "value": 0.416}, {"color": "#20ffa6", "from": "Strongly agree to Revising and Updating", "to": "Strongly agree to dissemination of GK", "value": 0.407}, {"color": "#112172", "from": "Disagree to Revising and Updating", "to": "Disagree to Policymaking", "value": 0.195}, {"color": "#6eaa0a", "from": "Neutral towards to Revising and Updating", "to": "Neutral towards to Policymaking", "value": 0.181}, {"color": "#8b5018", "from": "Neutral towards to Policymaking", "to": "Neutral towards to dissemination of GK", "value": 0.162}, {"color": "#804547", "from": "Disagree to Revising and Updating", "to": "Disagree to dissemination of GK", "value": 0.147}, {"color": "#34bffd", "from": "Neutral towards to Revising and Updating", "to": "Neutral towards to dissemination of GK", "value": 0.145}, {"color": "#95973f", "from": "Disagree to Policymaking", "to": "Disagree to dissemination of GK", "value": 0.105}]);
+
+        // adding nodes and edges to the graph
+        data = {nodes: nodes, edges: edges};
+
+        var options = {
+    "configure": {
+        "enabled": true,
+        "filter": [
+            "physics"
+        ]
+    },
+    "edges": {
+        "color": {
+            "inherit": true
+        },
+        "smooth": {
+            "enabled": false,
+            "type": "continuous"
+        }
+    },
+    "interaction": {
+        "dragNodes": true,
+        "hideEdgesOnDrag": false,
+        "hideNodesOnDrag": false
+    },
+    "physics": {
+        "enabled": true,
+        "stabilization": {
+            "enabled": true,
+            "fit": true,
+            "iterations": 1000,
+            "onlyDynamicEdges": false,
+            "updateInterval": 50
+        }
+    }
+};
+        
+        
+
+        
+        // if this network requires displaying the configure window,
+        // put it in its div
+        options.configure["container"] = document.getElementById("config");
+        
+
+        network = new vis.Network(container, data, options);
+	 
+        
+
+
+        
+
+        return network;
+
+    }
+
+    drawGraph();
+
+</script>
+</body>
+</html>
