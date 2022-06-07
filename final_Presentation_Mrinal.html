@@ -1,0 +1,1141 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+	<title>iGLAS-LE Presentation</title>
+	<meta name="description" content="MSc Thesis Presentation">
+	<meta name="author" content="Mrinal Vashisth">
+	<link rel="stylesheet" href="css/reveal.css">
+	<link rel="stylesheet" href="css/theme/white.css">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="lib/css/zenburn.css">
+	<meta name="apple-mobile-web-app-capable" content="yes">
+	<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="dist/reset.css">
+	<link rel="stylesheet" href="dist/reveal.css">
+	<link rel="stylesheet" href="dist/theme/white.css" id="theme">
+	<!-- Theme used for syntax highlighting of code -->
+	<link rel="stylesheet" href="plugin/highlight/monokai.css">
+	</head>
+
+
+	<body>
+
+		<div class="reveal">
+		<img src="./images/tsu_logo_en.png" alt="TSU Logo" style="height: 150px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none; position: fixed;
+		bottom: 10px;
+		left: 50px" class="demo-logo">
+		
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+
+			<!-- SLIDE 1-->
+			<section data-background="./images/tsu_front.jpg" data-background-size="cover" data-background-opacity=0.5>
+				<a href="https://tagc.world/"><img src="./images/TAGC_logobig.png" alt="TAGC Logo" style="height: 120px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+				</a>
+				<img src="./images/inlab-logo.png" alt="InLab Logo" style="height: 130px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+
+				</a>
+				<large>
+				Lessons from iGLAS-LE:
+				<large>
+				<large>
+				Interdisciplinary Approaches to Analyse Genetic Curiosity and Concerns
+				<large>
+				<p>
+				<small>Presented by <a href="https://www.socialpsychology.org/member/vashisth/files">Mrinal Vashisth</a></br>
+				M.Sc. Human Development: Genetics, Neuroscience and Psychology</br>
+				</small>
+				</p>
+				<p>
+				<small>Under supervision of <a href="https://scholar.google.com/citations?user=Akh9zDEAAAAJ&hl=ru">Maxim Likhanov, PhD</a></br>
+				</br>
+				</small>
+				</p>
+				
+				
+				
+				</section>
+
+				<!-- SLIDE 2-->
+				<section>
+				<h3>iGLAS-LE</h3>
+				<p>
+				International Genetics Literacy and Attitudes Survey
+				</p>
+				<section>
+				<p>
+				<small>
+				<p>
+				iGLAS-LE is an extension of iGLAS. It is a tool developed by TAGC consortium experts <em>(Chapman, 2017)</em> using Qualtrics software for assesing the ethical and Law: Non Law: Not Students aspects of genetic knowledge. Current version is 10.0 with 17 GK questions, across 5 domains. 
+				</p>
+				<blockquote>
+				&ldquo;<em> Understanding people's perceptions and attitudes towards Genetics Science can help us in policymaking. Genetic literacy is about having the sufficient knowledge of genetic principles to make informed decisions in areas of life concerning genetics (Chapman, 2017). And thus, Genetic literacy also becomes a mean of empowerment for individuals (Chapman et al. 2019).
+				</em>&rdquo;
+				</blockquote>
+				</small>
+				</br>
+				</p>
+				</section>
+				<section>
+				<p>
+				<small>
+				<ul>
+				<li> There is an increasing influence of science in socital issues 
+				<li> We are embracing a post-genomics era
+				<li> Are genetic laws keeping up?
+				<li> What do people think about Genetic Rights?
+				<li> In this project I looked at 773 Russian participants 
+				<li> Divided in 9 kinds of categories
+				<li> Categorical divisions were analysed and suitable features were selected using various visualisation methods
+				<li> Using an undirected network approach I summarised relationships of various survey items - <em>e.g.</em> Genetic relatedness with opinions on various likert items
+				</ul>
+				</br>
+				<em>Network methods have the potential to quickly highlight the most important features of the data</small> </em>
+				</p>
+				</section>
+
+
+	
+				</section>
+<section>
+<h3>Tools</h3>
+<small><em>I used the following tools in the project</em></small>
+<!-- METHODS-->
+			
+
+				<img src="./images/tools.png" alt="InLab Logo" style="margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+
+
+				
+				</section>
+
+				<!-- SLIDE 3-->
+				<section>
+				<h3>Challenges with the dataset</h3>
+				<section>
+				<small>
+				<ul>
+				<li> Mostly categorical variables
+				<li> Need to find a way to divide the data to observe patterns
+				<li> Are the categories useful?
+				<li> How to find important trends in the opinions?
+				</ul>
+				</small>
+				</br>
+				</p>
+				</section>
+				<section>
+				<br>
+				<p>
+				<small>
+				</br>
+				<em>The data is in two formats: binary coded and value coded </em>
+				</small>
+				<style>
+				.p_iframe iframe {
+					width:80%;
+					height:300px;
+					position: relative;
+					top: 40px; left:30px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/tabels/Hoja 1.html"></iframe>
+				</div>
+				</section>
+				<section>
+				<p>
+				<small>
+				</br>
+				<em>I used the iGLAS data dictionary to classify variables and annotate data. </em> <br>
+				There are two types of variabless <em>Human Rights (HR)</em> and <em>Genetic Rights (GR)</em>. I worked mainly with GR.
+				</small>
+				</p>
+				<br>
+				<style>
+				.p_iframe iframe {
+					width:100	%;
+					height:300px;
+					position: relative;
+					top: 40px; left:30px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/tabels/Master data dictionary for iLGAS-LE.html"></iframe>
+				</div>
+				</section>
+				<section>
+				<br>
+				<p>
+				<small>
+				</br>
+				<em>The resulting metadata helped in quick access within Python. With the help of metadata we can divide the data in any way we want. </em>
+				</small>
+				</p>
+				<br>
+				<style>
+				.p_iframe iframe {
+					width:100	%;
+					height:300px;
+					position: relative;
+					top: 40px; left:30px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/tabels/metadata.html"></iframe>
+				</div>
+				</section>
+				</section>
+
+				<!-- SLIDE 4-->
+				<section>
+				<h3>Description of the dataset</h3>
+				
+				
+				<section>
+					</br>
+					<p>
+					<small>
+					<em>I used pie and stacked bar-graphs to summarise the data.</em>
+						</small>
+					</small>
+					</p>
+				<div>
+				<img src="./images/result images/progress_collection.png" alt="Progress collection" style="background:none; border:none; box-shadow:none; bottom: 0.5em">
+				</div>
+				</section>
+				
+				<section>
+					<p>
+					<small>
+					</br>
+					<em>Pie charts are usually not the best way to describe, but with percentages they can be useful.</em>
+					</br>
+					Russian participants are the focus group.
+					</small>
+					</p>
+					<img src="./images/result images/collection_profile.png" alt="Progress collection" style="background:none; border:none; box-shadow:none; bottom: 0.5em">
+				</section>
+				
+				<section>
+					<small>
+					</br>
+					<em>Stacked charts with proportions are excellent at guiding which items are the most interesting.</em>
+					</small>
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+					<div class="p_iframe">
+					<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/gk_items.html"></iframe>
+					</div>
+				</section>
+				
+				<section>
+					
+					<small>
+					<ul>
+					<li> To explore specific questions we need to find a way to divide the data 
+					<li> I went on to divide the data in <b>9 categorical divisions</b>.
+					<li> Charts and graphs for variable each helped me to understand which divisions would be useful
+					<li> For example: The dataset is Russian participant dominant.
+					<li> There is a nearly equal division of male to female <em>et cetera.</em>
+					</ul>
+					</br>
+					<em>Let's look at the divisions in detail and how I arrived at them.</em>
+					</small>
+					
+				</section>
+
+				
+				</section>
+
+
+				<!-- SLIDE 5-->
+				<section>
+
+					<section>
+
+					<h3>Categorical divisions</h3>
+				<small>
+				<b> Hard Divisions </b></br>
+				</br>
+				<em> A participant can belong to one category or another, but not both. </em>
+				</small>
+				<small>
+				</br>
+				<em>Age, Gender, Related to law, and Students.</em>
+				</br>
+				</small>
+				</br>
+				<small>
+				<ul>
+				<li> Gender (Male, Female)
+				<li> Age (Old, Young) - Division at mean. We have young participant dominant dataset.
+				<li> Students versus non-students - This division was made using variable LE2.060 (University student).
+				<li> If students: then Law versus Non-law. And to contrast these students - not students.
+				</ul>
+				<em> We can divide by other categories, for example, professions et cetera - participant size too small. </em>
+				</small>
+				
+				
+					</section>
+					
+					<section>
+					</p>
+					<small>GK and Confidence correlate at .28 </small>
+
+					<style>
+					.p_iframe iframe {
+						width:100%;
+						height:200px;
+					}
+					</style>
+					<div class="p_iframe">
+					<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/download (3).png"></iframe>
+					</div>
+					</section>
+				
+					<section>
+				<small>
+				<b>Soft divisions 1: Confidence and GK Scores</b>
+				</br>
+				For confidence we have LE2.132. At 7th percentile high and low confidence seperation. GK score was calculated by taking '1' or '0' for correct and incorrect responses. These scores were added and at 7th percentile high and low GK score seperated.
+				</small>
+				<small><small>
+				<em> Both scores were scaled between a range. For example, 0-1 and 0-100.</em>
+
+				</small></small>
+				</p>
+				<div style="width: 50%; float:left">
+
+				<div>
+				<iframe frameborder="0" seamless='seamless' style="height:500px" scrolling=yes src="./images/result images/scaled_confidence.html"></iframe>
+				</div>
+				</div>
+				<div style="width: 50%; float:right">
+
+				<div>
+				<iframe frameborder="0" seamless='seamless' style="height:500px" scrolling=yes src="./images/result images/gk_score_distribution.html"></iframe>
+				</div>
+				</div>
+
+				</section>
+				
+				<section>
+				
+				<small>
+				
+				<b>Soft divisions 2: Scaled Concern Scores</b>
+				</br>
+				LE2.122 - LE2.130 are concern variables. Each concern was assigned a score of 1 and summed total was and scaled to 1-100.
+				</br>
+
+				</small>
+
+				<div>
+				<small>Scores were into 3 parts at intervals of 33 quantiles.  
+				0-14.28 were low concern, 14.28-28.57 were medium concern, and greater than 28.57 were high concern participants.</small>
+				</div>
+				
+				<div>
+
+				<div>
+				<iframe frameborder="0" seamless='seamless' scrolling=yes style="height:500px" src="./images/result images/scaled_concern.html"></iframe>
+				</div>
+				</div>
+				
+
+				
+				</section>
+				
+				<section>
+				<small>
+				
+				<b>Soft divisions 3: Scaled Genetic Curiosity</b>
+				</br>
+				LE3.101 - LE3.107 are Genetic Curiosity variables. Each is a likert scale of 4 levels: Certainly to Never. Each level was assigned a score from 100-66-33 and 0. Sum of scores from 7 option multiplied by Likert response. 0-8.54 as low DNA curious, 8.54-15.42 as medium DNA curious, and 15.42-31.0 as high DNA curious.
+				
+				</br>
+				</small>
+				
+				<div style="width: 70%; float:left">
+				
+				<div>
+				</br>
+				<iframe frameborder="0" seamless='seamless' style="height:400px" scrolling=yes src="./images/result images/gross_curiosity.html"></iframe>
+				</div>
+				</div>
+				<div style="width: 30%; float:right">
+				
+				<div>
+				<iframe frameborder="0" seamless='seamless' style="height:500px" scrolling=yes src="./images/result images/scaled_filtered_curiosity.html"></iframe>
+				</div>
+				</div>
+				</section>
+				
+				<section>
+				<small>
+				</br>
+				<em>Thus, following are the categorical divisions in the data.</em>
+				</small>
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/participants_across_groupings.html"></iframe>
+				</div>
+
+				</section>
+				
+				</section>
+				
+				<!-- SLIDE 6-->
+				
+				<section>
+				<h3>Analysis of Categories</h3>
+					<section>
+				<small>
+				</br>
+				</br>
+				<em>I also wanted to see if these divisions are actually useful, for this I performed some analyses on the categorical divisions. Following is a soft divisions only clustergram. Medium concern and low genetic curiosity cluster together.</em>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/hard_and_soft_cat.png"></iframe>
+				</div>
+					</section>
+				
+					<section>
+				<small>
+				</br>
+				</br>
+				<em>A Thiel's U Correlation plot hints at Curiosity and Concern. Hard and soft divisions makes the correlation range from -1 to +1.</em>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:100px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/all_categories.png"></iframe>
+				</div>
+				
+					</section>	
+					
+					<section>
+					</br>
+					</br>
+					<small>Different categories were compared using paired and group comparisions. The significant ones are highlighted in sky blue colour. Gender differences were observed in Genetic Curiosity. No differences were found between Genetic Curiosities and Concern profiles of participants.</small>
+					<style>
+					.p_iframe iframe {
+						width:100%;
+						height:300px;
+						position: relative;
+						top: 40px; left:30px;
+					}
+					</style>
+					<div class="p_iframe">
+					<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/tabels/comparisons.html"></iframe>
+					</div>
+					</section>
+					
+				
+					<section>
+				
+				<small>
+				</br>
+				</br>
+				</br>
+				MCA plot reveals that even though medium curious and concern participants overlap, they differ from each other in terms of inertia. Medium concern, concern and high concern are closer to each other, while medium curious and high curious are still farther apart, which means <b>there is more difference between medium curious to high curious than it is from medium to high concern.</b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/mca.png"></iframe>
+				</div>
+				
+				
+					</section>
+				
+				</section>
+				
+				
+				<!-- SLIDE 8-->
+				
+				<section>
+				<h3>Visualisation methods discussed</h3>
+				<section>
+				</br>
+				<small>
+				There are three main likert item (LE3.199, 200, 201). Majority of participants seem to agree or strongly disagree.</br>
+				</small>
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/likert_gross_opinion.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+				</br>
+				<small>
+				We can break these opinions by categorical divisions. Older and high GK participants are the most agreeing ones. Low GK and Law Students have the most varied opinions. But then, non-law students show similar pattern! <b>More people are neutral towards Revising and Updating.</b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/likert_overall.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+				</br>
+				<small>
+				We can look at it more closely using proportions. In this plot the three likert items are grouped together. The proportions should sum to 1, but not every participant is giving their opinion, therefore, the sum is slightly less than 1. <b>Law participants are agreeing but less strongly agreeing!</b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/likert_fine.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+				</br>
+				<small>
+				Indeed Older participants and high GK score participants cluster togeter. As do the Law and Low Genetic Curiosity participants. <b>Three big clusters depending upon strong agreement.</b>
+				</br>
+				<b>Does this mean overall Law Participants are less curious? What about their opinions on Scientific Endeavours?</b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/likert_dendro.html"></iframe>
+				</div>
+				
+				</section>
+
+				<section>
+				</br>
+				<small>
+				What are the major concerns across different categories? [Clustergram]
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/concerns_dendro.html"></iframe>
+				</div>
+				
+				</section>
+
+				</section>
+				
+				<!-- SLIDE 9-->
+				<section>
+				<h3>Objectives</h3>	
+				
+				<section>
+				<small>
+				<b> New-born genetic screening decision (Who should decide?) </b></br>
+				</br>
+				<em> I got curious about variable LE3.087, in most instances, and assuming two parents will be involved in raising a child, who should decide on sequencing a child’s genome at birth? </em>
+				</small>
+				</br>
+				<small>
+				<ul>
+				<li> I want to understand how opinions differ across different classes.
+				<li> <b>Is there a relatioship between this variable and if people answered the item about relatedness correctly?</b>
+				<li> While clustergram can summarise a lot of information, it is still not enough to summarise interactions.
+				<li> I need more sophisticated methods to explore these questions.
+
+				</ul>
+				</small>
+				
+				</section>
+
+			<section>
+Two key objectives:
+<small>
+			</br>
+			A.) To find out if there are patterns in who should decide on newborn screening.  For this, I have used stacked bar charts to find out if there is a pattern. I have also used Sankey flow diagrams, graphs, and clustering analyses with heatmaps. 
+		</br>
+			B.) To find out if there is a pattern in participants are agreeing or disagreeing to something on the survey. To analyse this, I have looked at Sankey flow diagrams and graphs on survey item combinations to find out which combinations are the most prevalent. 
+					
+			</small>	
+			</section>	
+				</section>
+				
+				<!-- SLIDE 10-->
+				
+				<section>
+				<h3>Traditional visualisation</h3>
+				<section>
+				</br>
+				<small>
+				If I simply use a scatter plot across the items, it become complicated.
+				</small>
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/ipatternsx.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+				</br>
+				<small>
+				Moreover, how should I integrate the GK item about relatedness? Variable LE5.017, 	
+				On average, how much of their total DNA is the same in two people selected at random? <b>Even high scoring participants answered at random chance. Law participants - worse performing. </b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/newplot (60).png"></iframe>
+				</div>
+				
+				</section>
+				
+				
+				<section>
+				<small>
+				<b> Flow and Network Methods </b></br>
+				</br>
+				<em> One possible solution is to trace the flow of participants through the survey. </em>
+				</small>
+				</br>
+				<small>
+				<ul>
+				<li> Process flow diagrams are used to study how resources are distributed for a given process.
+				<li> We take tuples of paths across the survey items and get sum totals.
+				<li> <b>Flow diagrams sound intresting only that...</b>
+				</ul>
+				</small>
+				
+				</section>
+				</section>
+				
+				<!-- SLIDE 11-->
+				
+				<section>
+				<h3>Sankey Flow</h3>
+				<section>
+				</br>
+				<small>
+				Problem 1: How much exactly is the flow for all the items? For example, how much exactly the choice is made by law participants or High Genetic Curious participants. Thus we need a way to visualise seperate flows as well.
+				</br>
+				Here we have a flow from Revising and Updating to Dissemination of GK. But we also need combinations of every item. This would make for circular and complicated flow diagram. Things become even more difficult when...'
+				</small>
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/sankey_5_3.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+				</br>
+				<small>
+				Problem 2: ...we have to visualise entire flow through a survey!</b>
+				</br><b>These are just leniar relationships, we haven't even looked at the combinations!</b>
+				</small>
+				
+				<style>
+				.p_iframe iframe {
+					width:100%;
+					height:500px;
+				}
+				</style>
+				<div class="p_iframe">
+				<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/BIG_sankey.html"></iframe>
+				</div>
+				
+				</section>
+				
+				<section>
+					<small>
+				</br><b>All the participants who strongly disagreed to revising and updating, also strongly disagreed to policymaking, and Dissemination of GK</b>
+
+			</small>
+			
+			<style>
+			.p_iframe iframe {
+				width:100%;
+			}
+			</style>
+			<div class="p_iframe">
+			<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/X_thesis_sankey.png"></iframe>
+			</div>
+			
+					
+				</section>
+
+				
+				</section>
+				
+				<!-- SLIDE 12-->
+				
+				
+				
+				<section>
+				<h3>Network Approaches</h3>
+					<section>
+					
+					<small>
+					
+					<b>All paths from a given node</b></br>
+					</br>
+					<em> Each survey item can be imagined as a node. </em></br>
+
+					
+					</small>
+					</br>
+					
+					<small>
+					<ul>
+					<li> Since a single very long path can exist in the survey, we may break it down into chunks of two
+					<li> At a given time we take the first node, and look at all possible paths to another node
+					<li> We count how many time this group of nodes occured throughout the survey
+					<li> The resulting graph summarises all interactions (occurences) of any given pair of options as strength (<b>joint probabilities</b>)
+					</ul>
+
+					</small>
+					
+					</section>
+					
+					<section>
+					</br>
+					<small>
+					<b>Bringing it all together</b>
+					</br>
+					Here is the tabular form of the Permutation method network graph from previous slide.
+					</br>
+					<small>
+					86.58% participants strongly agree to revising and updating. 71.94% strongly agree to policymaking. The strength of connection here is .6228. This is the most salient opinion group in the network of opinions on likert items. Notice that count for the next group of connections is only 33, but it still has a high strength. This implies that almost all of the participants who strongly disagreed to revising and updating, also strongly disagreed to policymaking.
+					</small>
+					</small>
+					<style>
+					.p_iframe iframe {
+						width:100%;
+						height:500px;
+					}
+					</style>
+					<div class="p_iframe">
+					<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/tabels/PATHS_RNXN_TRIPLE.html"></iframe>
+					</div>
+					
+				
+				</section>
+				
+				
+				<section>
+
+						<style>
+								.p_iframe iframe {
+									width:100%;
+								}
+								</style>
+								<div class="p_iframe">
+								<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/allnet_network_35_45_53.html"></iframe>
+								</div>
+
+					</section>
+
+					
+				</section>
+					
+					<!-- SLIDE 13-->
+					
+					<section>
+					<h3>Objectives Revised</h3>
+
+					<small>
+					<ul>
+					<li> What do the participants think about newborn screening decisionmaking responsibility?
+					<li> Is there a connection with likert opinions and other survey items with newborn screening opinion?
+					<li> How are Concerns and Genetic Curiosity items related with each other?
+					</ul>
+					<em>We now have an approach to answer these questions.</em> </br>Following are the selected variables:</small>
+					
+					<img src="./images/result images/gr_variables.png" alt="net methods" style="background:none; border:none; box-shadow:none; bottom: 0.5em">
+
+					</section>
+					
+					<!-- SLIDE 14-->
+					
+					<section>
+					<h3>Results - Network Analyses</h3>
+					<section>
+
+					</br>
+					<small>
+					<em>Network graph gives the whole picture.</em>
+					</small>
+					<small>
+					</p>
+					
+					1.) Two independent concern profiles: together ‘I am concerned my data will be used for other purposes without my knowledge’ and ‘Do not know whether the data will be stored securely’ have a strength of .023 suggesting that these are independent concerns</br>
+					2.) 'Two legal guardians need to agree' and 'Prohibited until child has legal capacity' with 'I am concerned that my data will be used for other purposes without my knowledge' .313 and .235 strengths respectively.</br>
+					3.) From network analysis as well, none of the connections for those who answered the items correctly crossed the 20% threshold. Answering the item correctly or incorrectly was not observed with disagreement or agreement with likert items.</br>
+					
+					</small>
+
+					
+				
+					</section>
+
+					<section><style>
+							.p_iframe iframe {
+								width:100%;
+								height:500px;
+							}
+							</style>
+							<div class="p_iframe">
+							<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/Thesis_variables_GR.html"></iframe>
+							</div>
+						
+						</section>
+
+					
+					<section>
+
+					</br>
+					<small>
+<b>Clustergram of all variables</b></br><small>
+					<em>To explore, why concern groups are different, I did a clustergram analyses of the entire dataset. It seems that, ‘I am concerned my data will be used for other purposes without my knowledge’ is the majority concern in Younger participants, while ‘Do not know whether the data will be stored securely’ is more prevalent in Older participants. And these two participant groups take assume separate large clusters in the dataset. Thus, Clustergram results align with network visualisation. Overall, on y-axes, we have 3 GR survey item groupings. We have majority participants, Highly concerned and disagreeing participants which also group together with unusual survey responses (for example Most likely to know about Friend's genetic information). And we have informed participants, who are strongly agreeing to all three likert opinions</em>
+</em> </small>
+					</small>
+
+<style>
+		.p_iframe iframe {
+			width:100%;
+		}
+		</style>
+		<div class="p_iframe">
+		<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/X_thesis_clusters.png"></iframe>
+		</div>
+		
+
+					</section>
+					
+					</section>
+
+
+					<!-- SLIDE 15-->
+					
+					<section>
+					
+					<section>
+					<h3>Significance</h3>
+					</br>
+					<small>
+					<em>We are now able to do the following:</em>
+					</small>
+				</br>
+				<small>
+				<ul>
+				<li> Derive some measurable variables from existing categorical variables in the survey data, and analyse them.
+				<li> Look at the mico-patterns in opinions across a range of items on the survey using clustering methods and visualisation methods.
+				<li> Use the categorical divisions to find patterns using network methods.
+				<li> Combine different approaches to gain insights from all categorical data.
+</br> 
+
+				</ul>
+
+				</small>
+				
+					</section>
+
+</section>
+
+
+
+
+<section>
+					<h3>Future Work</h3>
+					</br>
+					<small>
+					<em></em>
+					</small>
+				</br>
+				<small>
+				<ul>
+				<li> Look at longer patterns by either:
+a.) Finding a computationally efficient approach to permutations larger than 2 items. Or, b.) Making groupings for more number of items. For example, instead of just grouping with Genetic Curiosity, we can collapse the nodes for longer paths. Such as Genetic Curioisty + Level of Concern + Participant Group.
+
+<li> How can we describe the defined parameter 'Strength' in a leniar space? Understanding this can help us answer more complex questions, for example, if participants agree to something, and they also belong to a particular categorical division, how their opinions change for another survey item.
+				</ul>
+
+				</small>
+</section>
+
+<section>
+					<h3>Conclusion</h3>
+
+				<small>
+				<ul>
+				<li> Studying patterns in survey data can help us with policymaking. Thus, in effect, it is for the empowerment of individuals.
+<li> We can divide the survey in various categorical divisions, as well as derive some continuous variables.
+<li> We can find important trends and look at survey data as a whole using Network methods.
+<li> Combining Network methods with clustering and visualisations are a powerful tool to understand the structure of the survey responses as well as participant profiles.
+<li> iGLAS-LE addresses difficult ethical and legal issues in Genetics, and highlights the Concerns of participants regarding Genetic Rights.
+				</ul>
+<em>
+ Different visualisation methods give varied perspective on the same question. For example, the stacked proportional counts can rank sort the salient options, however they do not give absolute counts. Nevertheless, it is an effective method to get the options by popularity. After that, we can get pairs of options and calculate the probabilities of which options occur together.
+</em>
+</br>
+<b>The usefulness of Network methods to analyse survey opinions was discussed in this thesis work.</b>
+				</small>
+				
+					</section>
+
+					
+<section>
+		<small>
+				<em>Code availability:<a href="https://github.com/mrinalmanu/thesis_work_msc_22"> https://github.com/mrinalmanu/thesis_work_msc_22</a></em>
+				</small>
+				</br>
+					<a href="https://tagc.world/"><img src="./images/TAGC_logobig.png" alt="TAGC Logo" style="height: 100px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+				</a>
+
+<a href="https://tagc.world/inlab/">
+				<img src="./images/inlab-logo.png" alt="InLab Logo" style="height: 130px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+
+<a href="http://en.science.tsu.ru/masters_programme/316/">
+<img src="./images/master_k_3.jpg" alt="TSU Logo" style="height: 400px; margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none class="demo-logo">
+</a>
+
+					</section>
+
+
+<section>
+<h3>I am thankful</h3>
+				<img src="./images/thanking_note.png" alt="TAGC Logo" style="margin: 0 auto 4rem auto; background: transparent; background:none; border:none; box-shadow:none " class="demo-logo">
+
+					</section>
+
+					<section>
+							<h3>Extra Slides</h3>
+							
+											<section>				
+											</br>
+											<small>
+											The Sankey flow charts were created in the following way.
+											</small>
+											
+							
+											<img src="./images/result images/example 2.png" alt="sankey" style="background:none; border:none; box-shadow:none; bottom: 0.5em">
+											
+											</section>
+											
+							
+							
+							
+							<section>
+												
+												<small>
+												
+												<b>All paths from a given node</b></br>
+												</br>
+												<em> Each survey item can be imagined as a node. Assuming that participant can chose 1 option at a given node, then  for the graph with m edges, n nodes, and p paths from the source s to the target t, then for all paths an exhaustive search looks as following</em>
+												</br>
+												<b>O((np+1)(m+n)) </b></br>
+												
+												
+												</small>
+												</br>
+												
+												<small>
+												<ul>
+												<li> Since a single very long path can exist in the survey, we may break it down into chunks of two
+												<li> At a given time we take the first node, and look at all possible paths to another node
+												<li> We count how many time this group of nodes occured throughout the survey
+												<li> The resulting graph summarises all interactions (occurences) of any given pair of options
+												</ul>
+							
+												</small>
+												
+												</section>
+												
+												<section>
+												</br>
+												<small>
+												<b>Strenght of connection between two items:</b> What are the chances that we will observe a given pair of items? In other words, how strong is the observed connection in the survey-items network?
+												</small>
+												
+												<small>
+												
+												<img src="./images/result images/example.png" alt="net methods" style="background:none; border:none; box-shadow:none; bottom: 0.5em">
+												</small>
+												
+												</section>
+							
+												
+												<section>
+							
+												<small>
+												<ul>
+												<em> Additionally, we have two approaches: <b>Permutational</b> and <b>Combinatorial</b>, depending on whether the order is important or not. </em>
+												<li> For three likert opinions, I divided the items in permutations of three:
+												a.) Policymaking to Revising and Updating; b.) Revising and Updating to Dissemination of GK, and c.) Dissemination of GK to Policymaking
+												<li> In second approach: I just took the combinations of three items.
+												<li> If we have three items A, B and C. Then we have following combinations:  ['A', 'B'], ['B', 'C'], ['C', 'A']
+												<li> All permutations are: ['A', 'B'], ['A', 'C'], ['B', 'A'], ['B', 'C'], ['C', 'A'], ['C', 'B']
+												</ul>
+												<img src="./images/result images/permutations-combinations.png" alt="net methods" style="background:none; border:none; box-shadow:none; bottom: 0.5em"></br>
+												<em> Computationally, it is better to go with combinations, because we have to look at less scenarios. <b>But will we lose information?</b></em>
+												</small>
+												
+												</section>
+												
+							
+												
+												<section>
+												
+												
+												<div style="width: 50%; float:left">
+												<small>
+												<em>Combinations: The graph is open</em>
+												</small>
+												<div>
+												<iframe frameborder="0" seamless='seamless' style="height:200px" scrolling=yes src="./images/result images/allnet_network_3_4_5.html"></iframe>
+												<br>
+												<small>
+												<em>Permutations: The graph is closed</em>
+												</small>
+												<iframe frameborder="0" seamless='seamless' style="height:200px" scrolling=yes src="./images/result images/allnet_network_35_45_53.html"></iframe>
+												</div>
+												</div>
+												<div style="width: 50%; float:right">
+												<small>
+												<em>Gaussian smoothened distribution of connection strengths obtained in two approaches. We have more AUC in case of Permutational approach.</em>
+												</small>
+												<div>
+							
+												
+												<iframe frameborder="0" seamless='seamless' style="height:300px" scrolling=no src="./images/result images/temp-plot.html"></iframe>
+												</div>
+												</div>
+												
+							
+												
+												</section>
+												
+							
+							<section>
+							
+												</br>
+												<small>
+												<em>Tabular form of this network has been sorted for Counts as well as Strength.</em>
+												</small>
+							
+												<style>
+												.p_iframe iframe {
+													width:100%;
+													height:500px;
+												}
+												</style>
+												<div class="p_iframe">
+												<iframe frameborder="0" seamless='seamless' scrolling=yes src="./images/result images/Thesis_variables.html"></iframe>
+												</div>
+											
+												</section>
+							
+							
+							
+							</section>
+
+			</div>
+
+		</div>
+
+		<script src="dist/reveal.js"></script>
+		<script src="plugin/zoom/zoom.js"></script>
+		<script src="plugin/notes/notes.js"></script>
+		<script src="plugin/search/search.js"></script>
+		<script src="plugin/markdown/markdown.js"></script>
+		<script src="plugin/highlight/highlight.js"></script>
+		<script>
+
+			// Also available as an ES module, see:
+			// https://revealjs.com/initialization/
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				center: true,
+				hash: true,
+				slideNumber: 'h.v',
+
+
+				// Learn about plugins: https://revealjs.com/plugins/
+				plugins: [ RevealZoom, RevealNotes, RevealSearch, RevealMarkdown, RevealHighlight ]
+			});
+
+		</script>
+
+	</body>
+</html>
